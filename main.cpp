@@ -72,6 +72,26 @@ int main()
 		cout << "time1 is not greater than or equal to time2" << endl;
 	}
 
+	cout << "\nOPERATOR+ \n" << endl;
+	cout << time1;
+	cout << " + ";
+	cout << time2 ;
+	Duration result = time1 + time2;
+	cout << "=" << result << endl;
+	//result.print();
+	cout << endl;
+	Duration r = result + 40;
+	cout << r << endl;
+
+	Duration t(0, 10, 40);
+
+	t -= r;
+	
+	//if (t != nullptr)
+	cout << t << endl;
+
+
+
 
 	return 0;
 }
